@@ -1,9 +1,9 @@
 # Memory Card Project
-Full image backups of various memory cards for 5th & 6th generation video game consoles to serve as a time capsule of the pre-HD era in gaming.
+Full image backups of various memory cards for 5th/6th generation video game consoles, intended as a time capsule of the pre-HD era in gaming.
 
 None of these saves are personally mine, and the memory cards are typically sourced from untested lots on sites like eBay.
 
-All memory cards are unencrypted and available to use in an emulator of your choice.
+All memory cards are unencrypted and available to use in the emulator of your choice.
 
 This is not a repository for unlocked or 100% saves.
 
@@ -21,7 +21,7 @@ Xbox 360 - Probably the easiest one because you can use any USB flash drive rega
 
 https://github.com/ShendoXT/memcardrex - For exporting real PS1 memory cards using adapters such as the DexDrive, PS3 Memory Card Adapter, and various other methods. PS1 saves are unencrypted by default and thus it's much simpler to back these up on a PC without spinning up a container as I see myself doing with PS2 memory cards. You can also use this utility to manipulate individual PS1 saves, export or import saves to virtual memory cards, and even write back to real PS1 memory cards using an adapter. This utility is only intended for use with PS1 memory cards as PS2 memory cards were shipped with Sony's proprietary MagicGate encryption, which means that homebrew developers are likely not comfortable with breaking Sony's encryption for legal reasons.
 
-https://github.com/ShendoXT/memcardrex/blob/master/MONO.md - Additional instructions on getting MemcardRex to run on Linux via Mono as MemcardRex does not have a native Linux version, for anyone out there without Windows.
+https://github.com/ShendoXT/memcardrex/blob/master/MONO.md - Additional instructions on getting MemcardRex to run on Linux via Mono as MemcardRex does not have a native Linux version, for those not using Windows.
 
 https://hub.docker.com/r/islandc/ps3mca - Container image for reading and exporting real PS2 memory cards using the PS3 Memory Card Adapter, without needing a PS2/PS3. Although I can't confirm it's functionality with third-party adapters, it works great with my OEM Sony adapter for the PS3. This is a fully command-line based tool without a graphical user interface, and to my knowledge there are no MemcardRex equivalents for reading PS2 memory cards. Despite it's limitations, it is still adequate for reading, exporting, and archiving real PS2 memory cards without needing a PS2 with FreeMcBoot or a PS3 with a memory card adapter.
 
